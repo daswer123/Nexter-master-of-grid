@@ -6,7 +6,14 @@
 
 @import "base.scss";
 
+@import "layout/sidebar.scss";
 @import "layout/header.scss";
 @import "layout/footer.scss";
+
+@import "components/btn.scss";
+
+@import "components/feature.scss";
+@import "components/home.scss";
+@import "components/gallery.scss";
 
 @import "home.scss";

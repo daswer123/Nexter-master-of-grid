@@ -3,7 +3,7 @@
   --brown: #c69963;
   --brown-dark: #b28451;
 
-  --black: #101d2c;
+  --black: rgb(15, 27, 42);
 
   --grey: #aaa;
   --grey-light: #f9f7f6;
@@ -19,3 +19,8 @@
   --shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 //SCREEN SIZES
+
+$table-land: 1300px;
+$table-port: 900px;
+$phone: 600px;
+$small-phone: 500px;

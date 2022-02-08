@@ -1,8 +1,22 @@
 body {
   font-family: var(--font-main);
-  font-weight: 400;
   color: var(--brown-grey);
   font-weight: 300;
 
   line-height: 1.6;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+}
+
+.beatifull {
+  display: block;
+  color: var(--brown);
+  text-transform: uppercase;
+
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+
+  font-weight: 400;
 }

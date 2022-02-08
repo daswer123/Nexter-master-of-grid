@@ -8,6 +8,17 @@
 
 html {
   font-size: baseFontSize(10px);
+
+  @include respondMax($table-land) {
+    font-size: baseFontSize(9px);
+  }
+  @include respondMax($table-port) {
+    font-size: baseFontSize(8px);
+  }
+
+  @include respondMax($phone) {
+    font-size: baseFontSize(7px);
+  }
 }
 
 body {

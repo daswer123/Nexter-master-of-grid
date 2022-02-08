@@ -1,0 +1,26 @@
+.feature {
+  display: flex;
+  position: relative;
+  padding-left: 3rem;
+
+  flex-direction: column;
+  &__icon {
+    width: 4rem;
+    height: 4rem;
+
+    fill: var(--brown);
+
+    position: absolute;
+    top: 0;
+    left: -2rem;
+  }
+
+  &__title {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  &__desc {
+  }
+}

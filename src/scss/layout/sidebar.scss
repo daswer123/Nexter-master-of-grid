@@ -1,0 +1,73 @@
+.sidebar {
+  background-color: var(--brown);
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  @include respondMax($table-port) {
+    grid-column: 1/3;
+    grid-row: 1/2;
+
+    align-self: baseline;
+  }
+
+  &__btn {
+    position: relative;
+    margin: 0 auto;
+
+    height: 4rem;
+    width: 5rem;
+
+    border: 0;
+    background-color: inherit;
+
+    cursor: pointer;
+    display: block;
+
+    margin: 0 auto;
+
+    @include respondMax($table-port) {
+      margin: 0;
+      margin-left: auto;
+
+      margin-right: 3rem;
+      margin-top: 4rem;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    display: block;
+
+    margin-top: 5rem;
+
+    width: 50px;
+    height: 4px;
+
+    background-color: white;
+
+    top: 0px;
+    left: 0rem;
+
+    &::before,
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+
+      background-color: white;
+      width: 50px;
+      height: 4px;
+
+      top: -2rem;
+
+      left: 0px;
+    }
+
+    &::after {
+      top: 2rem;
+    }
+
+    @include respondMax($table-port) {
+      margin: 0;
+    }
+  }
+}
